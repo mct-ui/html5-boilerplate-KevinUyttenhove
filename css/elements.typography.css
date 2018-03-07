@@ -74,7 +74,10 @@ figcaption {
 }
 
 hr {
-
+    border: 0;
+    height: 1px;
+    background: LightGrey;
+    margin: 0 0 24px;
 }
 
 a {
