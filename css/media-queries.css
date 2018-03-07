@@ -18,7 +18,13 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+    html{
+        padding: 48px 48px 24px;
+    }
+    h1{
+        font-size: 58px;
+        line-height: 64px;
+    }
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
@@ -28,5 +34,8 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+    body{
+        max-width: 42em;
+        margin: 0 auto;
+    }
 }
